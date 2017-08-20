@@ -12,9 +12,9 @@ for d in $dir ; do
     echo "#############  $(basename $d)  ############"
     echo "$d"
     cd "$d"
-    git status
-    echo ""
     git fetch
+    echo ""
+    git status
     echo "###############  COMPLETE  ##############"
     echo ""
     echo ""
