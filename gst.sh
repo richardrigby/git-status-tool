@@ -23,9 +23,9 @@ Your branch is up-to-date with 'origin/develop'.
 nothing to commit, working tree clean"
 
     if [[ $res =~ $master ]]; then
-        echo -e "\e[34m$res\e[0m"
+        echo -e "\e[92m$res\e[0m"
     elif [[ $res =~ $develop ]]; then
-        echo -e "\e[32m$res\e[0m"
+        echo -e "\e[96m$res\e[0m"
     else
         echo -e "\e[91m$res\e[0m"
     fi
